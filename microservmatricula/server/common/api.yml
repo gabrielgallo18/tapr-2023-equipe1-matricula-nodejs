@@ -4,70 +4,104 @@ info:
   description: My cool TypeScript app
   version: 1.0.0
 servers:
-- url: /api/v1
+  - url: /api/v1
 tags:
-- name: Examples
-  description: Simple example endpoints
-- name: Specification
-  description: The swagger API specification
+  - name: Examples
+    description: Simple example endpoints
+  - name: Specification
+    description: The swagger API specification
 paths:
+  /matriculas:
+    get:
+      summary: Retrieve all matriculas
+      responses:
+        '200':
+          description: Successful operation
+          content: {}
+    post:
+      summary: Create a new matricula
+      responses:
+        '200':
+          description: Successful operation
+          content: {}
+  /matriculas/{id}:
+    get:
+      summary: Retrieve a matricula by ID
+      responses:
+        '200':
+          description: Successful operation
+          content: {}
+    put:
+      summary: Update a matricula by ID
+      responses:
+        '200':
+          description: Successful operation
+          content: {}
+    delete:
+      summary: Delete a matricula by ID
+      responses:
+        '200':
+          description: Successful operation
+          content: {}
   /examples:
     get:
       tags:
-      - Examples
-      description: Fetch all examples
+        - Examples
+      summary: Retrieve all examples
       responses:
-        200:
-          description: Returns all examples
+        '200':
+          description: Successful operation
           content: {}
     post:
       tags:
-      - Examples
-      description: Create a new example
+        - Examples
+      summary: Create a new example
       requestBody:
-        description: an example
+        description: An example
         content:
           application/json:
             schema:
               $ref: '#/components/schemas/ExampleBody'
         required: true
       responses:
-        200:
-          description: Returns all examples
+        '200':
+          description: Successful operation
           content: {}
   /examples/{id}:
     get:
       tags:
-      - Examples
+        - Examples
+      summary: Retrieve an example by ID
       parameters:
-      - name: id
-        in: path
-        description: The id of the example to retrieve
-        required: true
-        schema:
-          type: integer
+        - name: id
+          in: path
+          description: The ID of the example to retrieve
+          required: true
+          schema:
+            type: integer
       responses:
-        200:
-          description: Return the example with the specified id
+        '200':
+          description: Successful operation
           content: {}
-        404:
+        '404':
           description: Example not found
           content: {}
   /spec:
     get:
       tags:
-      - Specification
+        - Specification
+      summary: Retrieve the API specification
       responses:
-        200:
-          description: Return the API specification
+        '200':
+          description: Successful operation
           content: {}
 components:
   schemas:
     ExampleBody:
+      type: object
       title: example
       required:
-      - name
-      type: object
+        - name
       properties:
         name:
           type: string
