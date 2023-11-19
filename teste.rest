@@ -1,6 +1,7 @@
-POST http://localhost:3000/api/v1/matriculas
+POST http://localhost:3000/api/v1/matricula
 Content-Type: application/json
 
 {
+  "id": "Gabriel",
   "aluno": "Gabriel"
 }

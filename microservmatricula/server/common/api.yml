@@ -11,7 +11,7 @@ tags:
   - name: Specification
     description: The swagger API specification
 paths:
-  /matriculas:
+  /matricula:
     get:
       summary: Retrieve all matriculas
       responses:
@@ -24,7 +24,7 @@ paths:
         '200':
           description: Successful operation
           content: {}
-  /matriculas/{id}:
+  /matricula/{id}:
     get:
       summary: Retrieve a matricula by ID
       responses:
