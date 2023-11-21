@@ -1,7 +1,36 @@
-POST http://localhost:3000/api/v1/matricula
-Content-Type: application/json
+### inserir matricula
+# POST http://localhost:3000/api/v1/matricula
+# Content-Type: application/json
 
-{
-  "id": "Gabriel",
-  "aluno": "Gabriel"
-}
+# {
+#   "id": "galinhonovo",
+#   "aluno": "galinhonovo"
+# }
+
+### Buscar todas as matriculas
+# GET http://localhost:3000/api/v1/matricula
+
+### buscar pelo um id matricula
+# GET http://localhost:3000/api/v1/matricula/50963c1f-100e-4e0c-82fc-1ea121b1ab2c
+
+### atualizar o campo matricula
+# PUT http://localhost:3000/api/v1/matricula/dd54d65b-227a-4a82-aa94-696dda5621c4
+# Content-Type: application/json
+
+# {
+#   "aluno": "novoTeste"
+# }
+
+########
+
+### inserir curso
+ POST http://localhost:3000/api/v1/curso
+ Content-Type: application/json
+
+ {
+    "id": string;
+    "nome": string;
+    "docente": string;
+    "aluno": string;
+    "disciplina": string;
+ }
