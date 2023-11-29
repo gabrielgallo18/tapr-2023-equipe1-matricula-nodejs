@@ -1,5 +1,5 @@
 import express from 'express';
-import controller from './cursocontroller';
+import controller from './alunoscontroller';
 
 export default express
     .Router()

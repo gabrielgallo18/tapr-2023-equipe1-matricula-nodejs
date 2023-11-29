@@ -43,6 +43,38 @@ paths:
         '200':
           description: Successful operation
           content: {}
+  /alunos:
+    get:
+      summary: Retrieve all alunos
+      responses:
+        '200':
+          description: Successful operation
+          content: {}
+    post:
+      summary: Create a new alunos
+      responses:
+        '200':
+          description: Successful operation
+          content: {}
+  /alunos/{id}:
+    get:
+      summary: Retrieve a alunos by ID
+      responses:
+        '200':
+          description: Successful operation
+          content: {}
+    put:
+      summary: Update a alunos by ID
+      responses:
+        '200':
+          description: Successful operation
+          content: {}
+    delete:
+      summary: Delete a alunos by ID
+      responses:
+        '200':
+          description: Successful operation
+          content: {}
   /examples:
     get:
       tags:

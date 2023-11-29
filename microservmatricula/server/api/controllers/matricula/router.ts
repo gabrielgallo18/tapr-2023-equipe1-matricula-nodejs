@@ -8,8 +8,6 @@
 // }
 
 // import express from 'express';
-// import controller from './matriculacontroller';
-
 import express from 'express';
 import controller from './matriculacontroller';
 

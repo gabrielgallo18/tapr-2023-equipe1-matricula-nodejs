@@ -9,6 +9,8 @@ class MatriculaController{
         MatriculaService.getById(req.params['id']).then((r: any) => res.json(r));
     }
     post(req:Request, res:Response): void{
+        console.log("passou");
+        console.log(req.body);
         MatriculaService.saveNew(req.body).then((r: any) => res.json(r));
     }
     update(req:Request, res:Response): void{

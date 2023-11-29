@@ -1,0 +1,15 @@
+== APP - tapr-2023-1-aluno-javascript == 
+== APP - tapr-2023-1-aluno-javascript == > microservmatricula@1.0.0 dev
+== APP - tapr-2023-1-aluno-javascript == > nodemon server/index.ts | pino-pretty
+== APP - tapr-2023-1-aluno-javascript == 
+== APP - tapr-2023-1-aluno-javascript == [nodemon] 2.0.22
+== APP - tapr-2023-1-aluno-javascript == [nodemon] to restart at any time, enter `rs`
+== APP - tapr-2023-1-aluno-javascript == [nodemon] watching path(s): server/**/* .env
+== APP - tapr-2023-1-aluno-javascript == [nodemon] watching extensions: ts,js,json,yaml,yml
+== APP - tapr-2023-1-aluno-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-1-aluno-javascript == [1700788735270] INFO (tapr-2023-1-aluno-javascript/58747 on codespaces-75b048): up and running in development @: codespaces-75b048 on port: 3000}
+== APP - tapr-2023-1-aluno-javascript == 2023-11-24T01:19:44.458Z INFO [HTTPClient, HTTPClient] Sidecar Started
+== APP - tapr-2023-1-aluno-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] starting `ts-node server/index.ts`
+
+termination signal received: shutting down

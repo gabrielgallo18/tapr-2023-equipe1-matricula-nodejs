@@ -1,11 +1,15 @@
 ### inserir matricula
-# POST http://localhost:3000/api/v1/matricula
-# Content-Type: application/json
+POST http://localhost:3000/api/v1/matricula
+Content-Type: application/json
 
-# {
-#   "id": "galinhonovo",
-#   "aluno": "galinhonovo"
-# }
+{
+   "id": "gal",
+   "aluno": "gal"
+}
+
+### Remover matricula
+DELETE  http://localhost:3000/api/v1/matricula/dd54d65b-227a-4a82-aa94-696dda5621c4
+Content-Type: application/json
 
 ### Buscar todas as matriculas
 # GET http://localhost:3000/api/v1/matricula
@@ -23,14 +27,14 @@
 
 ########
 
-### inserir curso
- POST http://localhost:3000/api/v1/curso
- Content-Type: application/json
+### inserir
+POST http://localhost:3000/api/v1/alunos
+Content-Type: application/json
 
- {
-    "id": string;
-    "nome": string;
-    "docente": string;
-    "aluno": string;
-    "disciplina": string;
- }
+{
+  "id": "engesoft",
+  "nome": "engesoft",
+  "docente": "walter",
+  "aluno": "gabriel",
+  "disciplina": "tapr"
+}

@@ -1,10 +1,20 @@
 import { Container, SqlQuerySpec } from "@azure/cosmos";
 import cosmosDb from "../../common/cosmosdb";
 import { Matricula } from "../entites/matricula";
+import { DaprClient } from "@dapr/dapr";
+import daprClient from "../../common/daprclient";
+
 
 class MatriculaServive{
     private container:Container =
         cosmosDb.container("matricula");
+
+    async publishEvent(matricula:Matricula): Promise<Matricula>{
+        daprClient.pubsub.publish(process.env.APPCOMPONENTSERVICE as string,
+            process.env.APPCOMPONENTTOPICMATRICULA as string,matricula);
+        return Promise.resolve(matricula);
+    
+    }
     
     async all(): Promise<Matricula[]>{
         const {resources: listaMatriculas}
@@ -25,9 +35,10 @@ class MatriculaServive{
         return Promise.resolve(listaMatriculas[0]);
     }
     async saveNew(matricula:Matricula): Promise<Matricula>{
+        console.log(matricula);
         matricula.id = "";
         await this.container.items.create(matricula);
-        
+        // await this.publishEvent(matricula);
         return Promise.resolve(matricula);
     }
     async update(id:string, matricula:Matricula): Promise<Matricula>{
@@ -45,7 +56,8 @@ class MatriculaServive{
         nomeAluno.aluno = matricula.aluno;
         
         await this.container.items.upsert(nomeAluno)
-        
+        await this.publishEvent(matricula);
+
         return Promise.resolve(nomeAluno);
     }
     async delete(id:string): Promise<string>{
