@@ -38,3 +38,7 @@ Content-Type: application/json
   "aluno": "gabriel",
   "disciplina": "tapr"
 }
+
+### Remover aluno
+DELETE  http://localhost:3000/api/v1/aluno/ae498194-0377-4150-9dc1-04b4046a3672
+Content-Type: application/json

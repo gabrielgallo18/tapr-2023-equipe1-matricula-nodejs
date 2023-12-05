@@ -4,7 +4,7 @@ import { Alunos } from "../entites/alunos";
 
 class AlunosService{
     private container:Container =
-        cosmosDb.container("aluno");
+        cosmosDb.container("alunos");
     
     async all(): Promise<Alunos[]>{
         const {resources: listaAlunos}
