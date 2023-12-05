@@ -1,0 +1,55 @@
+Starting Dapr with id tapr-2023-1-aluno-javascript. HTTP Port: 44195. gRPC Port: 42473
+Updating metadata for cliPID: 57331
+time="2023-12-05T00:53:11.395448793Z" level=info msg="Starting Dapr Runtime -- version 1.12.2 -- commit f954254ed520409602024ea6d507d0405afa1f07" app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:53:11.395519084Z" level=info msg="Log level set to: info" app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:53:11.395746187Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.runtime.security type=log ver=1.12.2
+time="2023-12-05T00:53:11.397369953Z" level=info msg="standalone mode configured" app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:53:11.39748091Z" level=info msg="app id: tapr-2023-1-aluno-javascript" app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:53:11.397571218Z" level=info msg="Dapr trace sampler initialized: DaprTraceSampler(P=1.000000)" app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:53:11.398115993Z" level=info msg="local service entry announced: tapr-2023-1-aluno-javascript -> 172.16.5.4:33941" app_id=tapr-2023-1-aluno-javascript component="mdns (nameResolution/v1)" instance=codespaces-75b048 scope=dapr.contrib type=log ver=1.12.2
+time="2023-12-05T00:53:11.398194009Z" level=info msg="Initialized name resolution to mdns" app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:53:11.398270912Z" level=info msg="Loading components…" app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:53:11.399156302Z" level=info msg="Waiting for all outstanding components to be processed…" app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:53:11.400254038Z" level=info msg="metrics server started on :46595/" app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:53:14.399991023Z" level=info msg="Component loaded: servicebus-pubsub (pubsub.azure.servicebus.topics/v1)" app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:53:14.400476728Z" level=info msg="All outstanding components processed" app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:53:14.400683423Z" level=info msg="Loading endpoints…" app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:53:14.401130216Z" level=info msg="Waiting for all outstanding http endpoints to be processed…" app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:53:14.401341229Z" level=info msg="All outstanding http endpoints processed" app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:53:14.40163693Z" level=info msg="gRPC server listening on TCP address: :42473" app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.runtime.grpc.api type=log ver=1.12.2
+time="2023-12-05T00:53:14.401845298Z" level=info msg="Enabled gRPC tracing middleware" app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.runtime.grpc.api type=log ver=1.12.2
+time="2023-12-05T00:53:14.402072061Z" level=info msg="Enabled gRPC metrics middleware" app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.runtime.grpc.api type=log ver=1.12.2
+time="2023-12-05T00:53:14.402176395Z" level=info msg="Registering workflow engine for gRPC endpoint: [::]:42473" app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.runtime.grpc.api type=log ver=1.12.2
+time="2023-12-05T00:53:14.402423887Z" level=info msg="API gRPC server is running on port 42473" app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:53:14.402546075Z" level=info msg="Enabled max body size HTTP middleware with size 4 MB" app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.runtime.http type=log ver=1.12.2
+time="2023-12-05T00:53:14.402760374Z" level=info msg="Enabled tracing HTTP middleware" app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.runtime.http type=log ver=1.12.2
+time="2023-12-05T00:53:14.402793125Z" level=info msg="Enabled metrics HTTP middleware" app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.runtime.http type=log ver=1.12.2
+time="2023-12-05T00:53:14.403154719Z" level=info msg="HTTP server listening on TCP address: :44195" app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.runtime.http type=log ver=1.12.2
+time="2023-12-05T00:53:14.403374539Z" level=info msg="HTTP server is running on port 44195" app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:53:14.40360046Z" level=info msg="The request body size parameter is: 4" app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:53:14.403824156Z" level=info msg="gRPC server listening on TCP address: :33941" app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.runtime.grpc.internal type=log ver=1.12.2
+time="2023-12-05T00:53:14.403868279Z" level=info msg="Enabled gRPC tracing middleware" app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.runtime.grpc.internal type=log ver=1.12.2
+time="2023-12-05T00:53:14.403895058Z" level=info msg="Enabled gRPC metrics middleware" app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.runtime.grpc.internal type=log ver=1.12.2
+time="2023-12-05T00:53:14.403950101Z" level=info msg="Internal gRPC server is running on port 33941" app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:53:14.404274115Z" level=info msg="application protocol: http. waiting on port 3000.  This will block until the app is listening on that port." app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.runtime type=log ver=1.12.2
+Updating metadata for app command: npm run dev
+Updating metadata for appPID: 57349
+You're up and running! Dapr logs will appear here.
+
+time="2023-12-05T00:55:18.936299174Z" level=info msg="application discovered on port 3000" app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:55:19.066574971Z" level=info msg="Application configuration loaded" app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:55:19.068041915Z" level=info msg="actors: state store is not configured - this is okay for clients but services with hosted actors will fail to initialize!" app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:55:19.071394683Z" level=info msg="Actor runtime started. Actor idle timeout: 1h0m0s. Actor scan interval: 30s" app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.runtime.actor type=log ver=1.12.2
+time="2023-12-05T00:55:19.072141515Z" level=info msg="Configuring workflow engine with actors backend" app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.runtime.wfengine type=log ver=1.12.2
+time="2023-12-05T00:55:19.072828105Z" level=info msg="Registering component for dapr workflow engine..." app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:55:19.073752337Z" level=info msg="Initializing Dapr workflow component" app_id=tapr-2023-1-aluno-javascript component="dapr (workflow.dapr/v1)" instance=codespaces-75b048 scope=dapr.contrib type=log ver=1.12.2
+time="2023-12-05T00:55:19.084398848Z" level=info msg="Placement tables updated, version: 0" app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.runtime.actors.placement type=log ver=1.12.2
+time="2023-12-05T00:55:19.086191569Z" level=info msg="app is subscribed to the following topics: [topico-equipe-1-matricula topico-equipe-1-curso] through pubsub=servicebus-pubsub" app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.runtime.processor.pubsub type=log ver=1.12.2
+time="2023-12-05T00:55:23.360081689Z" level=info msg="dapr initialized. Status: Running. Init Elapsed 131962ms" app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T01:00:50.270062305Z" level=info msg="Received signal 'interrupt'; beginning shutdown" app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.signals type=log ver=1.12.2
+time="2023-12-05T01:00:50.274616623Z" level=info msg="Dapr is shutting down" app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T01:00:50.27612284Z" level=info msg="Shutting down component dapr (workflow.dapr/v1)" app_id=tapr-2023-1-aluno-javascript instance=codespaces-75b048 scope=dapr.runtime type=log ver=1.12.2
+
+termination signal received: shutting down
+Exited Dapr successfully
+Exited App successfully

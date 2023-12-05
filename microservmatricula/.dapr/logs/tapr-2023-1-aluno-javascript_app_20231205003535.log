@@ -1,0 +1,471 @@
+== APP - tapr-2023-1-aluno-javascript == 
+== APP - tapr-2023-1-aluno-javascript == > microservmatricula@1.0.0 dev
+== APP - tapr-2023-1-aluno-javascript == > nodemon server/index.ts | pino-pretty
+== APP - tapr-2023-1-aluno-javascript == 
+== APP - tapr-2023-1-aluno-javascript == [nodemon] 2.0.22
+== APP - tapr-2023-1-aluno-javascript == [nodemon] to restart at any time, enter `rs`
+== APP - tapr-2023-1-aluno-javascript == [nodemon] watching path(s): server/**/* .env
+== APP - tapr-2023-1-aluno-javascript == [nodemon] watching extensions: ts,js,json,yaml,yml
+== APP - tapr-2023-1-aluno-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-1-aluno-javascript == [1701736543929] INFO (tapr-2023-1-aluno-javascript/43377 on codespaces-75b048): up and running in development @: codespaces-75b048 on port: 3000}
+== APP - tapr-2023-1-aluno-javascript == aqui
+== APP - tapr-2023-1-aluno-javascript == {
+== APP - tapr-2023-1-aluno-javascript ==   id: 'engesoft',
+== APP - tapr-2023-1-aluno-javascript ==   nome: 'engesoft',
+== APP - tapr-2023-1-aluno-javascript ==   docente: 'walter',
+== APP - tapr-2023-1-aluno-javascript ==   aluno: 'gabriel',
+== APP - tapr-2023-1-aluno-javascript ==   disciplina: 'tapr'
+== APP - tapr-2023-1-aluno-javascript == }
+== APP - tapr-2023-1-aluno-javascript == aqui
+== APP - tapr-2023-1-aluno-javascript == { nome: 'zef', sobrenome: 'gallo', cpf: 12345, curso: 'eng' }
+== APP - tapr-2023-1-aluno-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-1-aluno-javascript == /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:859
+== APP - tapr-2023-1-aluno-javascript ==     return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+== APP - tapr-2023-1-aluno-javascript ==            ^
+== APP - tapr-2023-1-aluno-javascript == TSError: ⨯ Unable to compile TypeScript:
+== APP - tapr-2023-1-aluno-javascript == server/api/services/alunos.service.ts(9,34): error TS2304: Cannot find name 'Carro'.
+== APP - tapr-2023-1-aluno-javascript == server/api/services/alunos.service.ts(9,50): error TS2304: Cannot find name 'Carro'.
+== APP - tapr-2023-1-aluno-javascript == server/api/services/alunos.service.ts(10,13): error TS2304: Cannot find name 'daprClient'.
+== APP - tapr-2023-1-aluno-javascript == 
+== APP - tapr-2023-1-aluno-javascript ==     at createTSError (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:859:12)
+== APP - tapr-2023-1-aluno-javascript ==     at reportTSError (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:863:19)
+== APP - tapr-2023-1-aluno-javascript ==     at getOutput (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1077:36)
+== APP - tapr-2023-1-aluno-javascript ==     at Object.compile (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1433:41)
+== APP - tapr-2023-1-aluno-javascript ==     at Module.m._compile (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1617:30)
+== APP - tapr-2023-1-aluno-javascript ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-1-aluno-javascript ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1621:12)
+== APP - tapr-2023-1-aluno-javascript ==     at Module.load (node:internal/modules/cjs/loader:1091:32)
+== APP - tapr-2023-1-aluno-javascript ==     at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+== APP - tapr-2023-1-aluno-javascript ==     at Module.require (node:internal/modules/cjs/loader:1115:19) {
+== APP - tapr-2023-1-aluno-javascript ==   diagnosticCodes: [ 2304, 2304, 2304 ]
+== APP - tapr-2023-1-aluno-javascript == }
+== APP - tapr-2023-1-aluno-javascript == [nodemon] app crashed - waiting for file changes before starting...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-1-aluno-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-1-aluno-javascript == /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:859
+== APP - tapr-2023-1-aluno-javascript ==     return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+== APP - tapr-2023-1-aluno-javascript ==            ^
+== APP - tapr-2023-1-aluno-javascript == TSError: ⨯ Unable to compile TypeScript:
+== APP - tapr-2023-1-aluno-javascript == server/api/services/alunos.service.ts(10,31): error TS2304: Cannot find name 'Carro'.
+== APP - tapr-2023-1-aluno-javascript == server/api/services/alunos.service.ts(10,47): error TS2304: Cannot find name 'Carro'.
+== APP - tapr-2023-1-aluno-javascript == 
+== APP - tapr-2023-1-aluno-javascript ==     at createTSError (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:859:12)
+== APP - tapr-2023-1-aluno-javascript ==     at reportTSError (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:863:19)
+== APP - tapr-2023-1-aluno-javascript ==     at getOutput (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1077:36)
+== APP - tapr-2023-1-aluno-javascript ==     at Object.compile (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1433:41)
+== APP - tapr-2023-1-aluno-javascript ==     at Module.m._compile (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1617:30)
+== APP - tapr-2023-1-aluno-javascript ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-1-aluno-javascript ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1621:12)
+== APP - tapr-2023-1-aluno-javascript ==     at Module.load (node:internal/modules/cjs/loader:1091:32)
+== APP - tapr-2023-1-aluno-javascript ==     at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+== APP - tapr-2023-1-aluno-javascript ==     at Module.require (node:internal/modules/cjs/loader:1115:19) {
+== APP - tapr-2023-1-aluno-javascript ==   diagnosticCodes: [ 2304, 2304 ]
+== APP - tapr-2023-1-aluno-javascript == }
+== APP - tapr-2023-1-aluno-javascript == [nodemon] app crashed - waiting for file changes before starting...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-1-aluno-javascript == /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:859
+== APP - tapr-2023-1-aluno-javascript ==     return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+== APP - tapr-2023-1-aluno-javascript ==            ^
+== APP - tapr-2023-1-aluno-javascript == TSError: ⨯ Unable to compile TypeScript:
+== APP - tapr-2023-1-aluno-javascript == server/api/services/alunos.service.ts(10,31): error TS2304: Cannot find name 'Aluni'.
+== APP - tapr-2023-1-aluno-javascript == server/api/services/alunos.service.ts(10,47): error TS2304: Cannot find name 'Carro'.
+== APP - tapr-2023-1-aluno-javascript == 
+== APP - tapr-2023-1-aluno-javascript ==     at createTSError (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:859:12)
+== APP - tapr-2023-1-aluno-javascript ==     at reportTSError (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:863:19)
+== APP - tapr-2023-1-aluno-javascript ==     at getOutput (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1077:36)
+== APP - tapr-2023-1-aluno-javascript ==     at Object.compile (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1433:41)
+== APP - tapr-2023-1-aluno-javascript ==     at Module.m._compile (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1617:30)
+== APP - tapr-2023-1-aluno-javascript ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-1-aluno-javascript ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1621:12)
+== APP - tapr-2023-1-aluno-javascript ==     at Module.load (node:internal/modules/cjs/loader:1091:32)
+== APP - tapr-2023-1-aluno-javascript ==     at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+== APP - tapr-2023-1-aluno-javascript ==     at Module.require (node:internal/modules/cjs/loader:1115:19) {
+== APP - tapr-2023-1-aluno-javascript ==   diagnosticCodes: [ 2304, 2304 ]
+== APP - tapr-2023-1-aluno-javascript == }
+== APP - tapr-2023-1-aluno-javascript == [nodemon] app crashed - waiting for file changes before starting...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-1-aluno-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-1-aluno-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-1-aluno-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-1-aluno-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-1-aluno-javascript == /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:859
+== APP - tapr-2023-1-aluno-javascript ==     return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+== APP - tapr-2023-1-aluno-javascript ==            ^
+== APP - tapr-2023-1-aluno-javascript == TSError: ⨯ Unable to compile TypeScript:
+== APP - tapr-2023-1-aluno-javascript == server/api/services/alunos.service.ts(10,31): error TS2552: Cannot find name 'Aluno'. Did you mean 'Alunos'?
+== APP - tapr-2023-1-aluno-javascript == server/api/services/alunos.service.ts(10,47): error TS2552: Cannot find name 'Aluno'. Did you mean 'Alunos'?
+== APP - tapr-2023-1-aluno-javascript == server/api/services/alunos.service.ts(11,124): error TS2304: Cannot find name 'aluno'.
+== APP - tapr-2023-1-aluno-javascript == 
+== APP - tapr-2023-1-aluno-javascript ==     at createTSError (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:859:12)
+== APP - tapr-2023-1-aluno-javascript ==     at reportTSError (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:863:19)
+== APP - tapr-2023-1-aluno-javascript ==     at getOutput (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1077:36)
+== APP - tapr-2023-1-aluno-javascript ==     at Object.compile (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1433:41)
+== APP - tapr-2023-1-aluno-javascript ==     at Module.m._compile (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1617:30)
+== APP - tapr-2023-1-aluno-javascript ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-1-aluno-javascript ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1621:12)
+== APP - tapr-2023-1-aluno-javascript ==     at Module.load (node:internal/modules/cjs/loader:1091:32)
+== APP - tapr-2023-1-aluno-javascript ==     at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+== APP - tapr-2023-1-aluno-javascript ==     at Module.require (node:internal/modules/cjs/loader:1115:19) {
+== APP - tapr-2023-1-aluno-javascript ==   diagnosticCodes: [ 2552, 2552, 2304 ]
+== APP - tapr-2023-1-aluno-javascript == }
+== APP - tapr-2023-1-aluno-javascript == [nodemon] app crashed - waiting for file changes before starting...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-1-aluno-javascript == /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:859
+== APP - tapr-2023-1-aluno-javascript ==     return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+== APP - tapr-2023-1-aluno-javascript ==            ^
+== APP - tapr-2023-1-aluno-javascript == TSError: ⨯ Unable to compile TypeScript:
+== APP - tapr-2023-1-aluno-javascript == server/api/services/alunos.service.ts(10,24): error TS6133: 'carro' is declared but its value is never read.
+== APP - tapr-2023-1-aluno-javascript == server/api/services/alunos.service.ts(10,31): error TS2552: Cannot find name 'Aluno'. Did you mean 'Alunos'?
+== APP - tapr-2023-1-aluno-javascript == server/api/services/alunos.service.ts(10,47): error TS2552: Cannot find name 'Aluno'. Did you mean 'Alunos'?
+== APP - tapr-2023-1-aluno-javascript == server/api/services/alunos.service.ts(11,124): error TS2304: Cannot find name 'aluno'.
+== APP - tapr-2023-1-aluno-javascript == server/api/services/alunos.service.ts(12,32): error TS2304: Cannot find name 'aluno'.
+== APP - tapr-2023-1-aluno-javascript == 
+== APP - tapr-2023-1-aluno-javascript ==     at createTSError (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:859:12)
+== APP - tapr-2023-1-aluno-javascript ==     at reportTSError (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:863:19)
+== APP - tapr-2023-1-aluno-javascript ==     at getOutput (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1077:36)
+== APP - tapr-2023-1-aluno-javascript ==     at Object.compile (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1433:41)
+== APP - tapr-2023-1-aluno-javascript ==     at Module.m._compile (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1617:30)
+== APP - tapr-2023-1-aluno-javascript ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-1-aluno-javascript ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1621:12)
+== APP - tapr-2023-1-aluno-javascript ==     at Module.load (node:internal/modules/cjs/loader:1091:32)
+== APP - tapr-2023-1-aluno-javascript ==     at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+== APP - tapr-2023-1-aluno-javascript ==     at Module.require (node:internal/modules/cjs/loader:1115:19) {
+== APP - tapr-2023-1-aluno-javascript ==   diagnosticCodes: [ 6133, 2552, 2552, 2304, 2304 ]
+== APP - tapr-2023-1-aluno-javascript == }
+== APP - tapr-2023-1-aluno-javascript == [nodemon] app crashed - waiting for file changes before starting...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-1-aluno-javascript == /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:859
+== APP - tapr-2023-1-aluno-javascript ==     return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+== APP - tapr-2023-1-aluno-javascript ==            ^
+== APP - tapr-2023-1-aluno-javascript == TSError: ⨯ Unable to compile TypeScript:
+== APP - tapr-2023-1-aluno-javascript == server/api/services/alunos.service.ts(10,31): error TS2552: Cannot find name 'Aluno'. Did you mean 'Alunos'?
+== APP - tapr-2023-1-aluno-javascript == server/api/services/alunos.service.ts(10,47): error TS2552: Cannot find name 'Aluno'. Did you mean 'Alunos'?
+== APP - tapr-2023-1-aluno-javascript == 
+== APP - tapr-2023-1-aluno-javascript ==     at createTSError (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:859:12)
+== APP - tapr-2023-1-aluno-javascript ==     at reportTSError (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:863:19)
+== APP - tapr-2023-1-aluno-javascript ==     at getOutput (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1077:36)
+== APP - tapr-2023-1-aluno-javascript ==     at Object.compile (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1433:41)
+== APP - tapr-2023-1-aluno-javascript ==     at Module.m._compile (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1617:30)
+== APP - tapr-2023-1-aluno-javascript ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-1-aluno-javascript ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1621:12)
+== APP - tapr-2023-1-aluno-javascript ==     at Module.load (node:internal/modules/cjs/loader:1091:32)
+== APP - tapr-2023-1-aluno-javascript ==     at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+== APP - tapr-2023-1-aluno-javascript ==     at Module.require (node:internal/modules/cjs/loader:1115:19) {
+== APP - tapr-2023-1-aluno-javascript ==   diagnosticCodes: [ 2552, 2552 ]
+== APP - tapr-2023-1-aluno-javascript == }
+== APP - tapr-2023-1-aluno-javascript == [nodemon] app crashed - waiting for file changes before starting...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-1-aluno-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-1-aluno-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-1-aluno-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-1-aluno-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-1-aluno-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-1-aluno-javascript == Error: Cannot find module 'server/common/daprclient'
+== APP - tapr-2023-1-aluno-javascript == Require stack:
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/services/alunos.service.ts
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/controllers/alunos/alunoscontroller.ts
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/controllers/alunos/router.ts
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/routes.ts
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/index.ts
+== APP - tapr-2023-1-aluno-javascript ==     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1048:15)
+== APP - tapr-2023-1-aluno-javascript ==     at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+== APP - tapr-2023-1-aluno-javascript ==     at Function.Module._load (node:internal/modules/cjs/loader:901:27)
+== APP - tapr-2023-1-aluno-javascript ==     at Module.require (node:internal/modules/cjs/loader:1115:19)
+== APP - tapr-2023-1-aluno-javascript ==     at require (node:internal/modules/helpers:130:18)
+== APP - tapr-2023-1-aluno-javascript ==     at Object.<anonymous> (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/services/alunos.service.ts:4:1)
+== APP - tapr-2023-1-aluno-javascript ==     at Module._compile (node:internal/modules/cjs/loader:1241:14)
+== APP - tapr-2023-1-aluno-javascript ==     at Module.m._compile (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1618:23)
+== APP - tapr-2023-1-aluno-javascript ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-1-aluno-javascript ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1621:12) {
+== APP - tapr-2023-1-aluno-javascript ==   code: 'MODULE_NOT_FOUND',
+== APP - tapr-2023-1-aluno-javascript ==   requireStack: [
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/services/alunos.service.ts',
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/controllers/alunos/alunoscontroller.ts',
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/controllers/alunos/router.ts',
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/routes.ts',
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/index.ts'
+== APP - tapr-2023-1-aluno-javascript ==   ]
+== APP - tapr-2023-1-aluno-javascript == }
+== APP - tapr-2023-1-aluno-javascript == [nodemon] app crashed - waiting for file changes before starting...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-1-aluno-javascript == Error: Cannot find module 'server/common/daprclient'
+== APP - tapr-2023-1-aluno-javascript == Require stack:
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/services/alunos.service.ts
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/controllers/alunos/alunoscontroller.ts
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/controllers/alunos/router.ts
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/routes.ts
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/index.ts
+== APP - tapr-2023-1-aluno-javascript ==     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1048:15)
+== APP - tapr-2023-1-aluno-javascript ==     at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+== APP - tapr-2023-1-aluno-javascript ==     at Function.Module._load (node:internal/modules/cjs/loader:901:27)
+== APP - tapr-2023-1-aluno-javascript ==     at Module.require (node:internal/modules/cjs/loader:1115:19)
+== APP - tapr-2023-1-aluno-javascript ==     at require (node:internal/modules/helpers:130:18)
+== APP - tapr-2023-1-aluno-javascript ==     at Object.<anonymous> (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/services/alunos.service.ts:4:1)
+== APP - tapr-2023-1-aluno-javascript ==     at Module._compile (node:internal/modules/cjs/loader:1241:14)
+== APP - tapr-2023-1-aluno-javascript ==     at Module.m._compile (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1618:23)
+== APP - tapr-2023-1-aluno-javascript ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-1-aluno-javascript ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1621:12) {
+== APP - tapr-2023-1-aluno-javascript ==   code: 'MODULE_NOT_FOUND',
+== APP - tapr-2023-1-aluno-javascript ==   requireStack: [
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/services/alunos.service.ts',
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/controllers/alunos/alunoscontroller.ts',
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/controllers/alunos/router.ts',
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/routes.ts',
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/index.ts'
+== APP - tapr-2023-1-aluno-javascript ==   ]
+== APP - tapr-2023-1-aluno-javascript == }
+== APP - tapr-2023-1-aluno-javascript == [nodemon] app crashed - waiting for file changes before starting...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-1-aluno-javascript == Error: Cannot find module 'server/common/daprclient'
+== APP - tapr-2023-1-aluno-javascript == Require stack:
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/services/alunos.service.ts
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/controllers/alunos/alunoscontroller.ts
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/controllers/alunos/router.ts
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/routes.ts
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/index.ts
+== APP - tapr-2023-1-aluno-javascript ==     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1048:15)
+== APP - tapr-2023-1-aluno-javascript ==     at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+== APP - tapr-2023-1-aluno-javascript ==     at Function.Module._load (node:internal/modules/cjs/loader:901:27)
+== APP - tapr-2023-1-aluno-javascript ==     at Module.require (node:internal/modules/cjs/loader:1115:19)
+== APP - tapr-2023-1-aluno-javascript ==     at require (node:internal/modules/helpers:130:18)
+== APP - tapr-2023-1-aluno-javascript ==     at Object.<anonymous> (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/services/alunos.service.ts:4:1)
+== APP - tapr-2023-1-aluno-javascript ==     at Module._compile (node:internal/modules/cjs/loader:1241:14)
+== APP - tapr-2023-1-aluno-javascript ==     at Module.m._compile (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1618:23)
+== APP - tapr-2023-1-aluno-javascript ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-1-aluno-javascript ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1621:12) {
+== APP - tapr-2023-1-aluno-javascript ==   code: 'MODULE_NOT_FOUND',
+== APP - tapr-2023-1-aluno-javascript ==   requireStack: [
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/services/alunos.service.ts',
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/controllers/alunos/alunoscontroller.ts',
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/controllers/alunos/router.ts',
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/routes.ts',
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/index.ts'
+== APP - tapr-2023-1-aluno-javascript ==   ]
+== APP - tapr-2023-1-aluno-javascript == }
+== APP - tapr-2023-1-aluno-javascript == [nodemon] app crashed - waiting for file changes before starting...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-1-aluno-javascript == Error: Cannot find module 'server/common/daprclient'
+== APP - tapr-2023-1-aluno-javascript == Require stack:
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/services/alunos.service.ts
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/controllers/alunos/alunoscontroller.ts
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/controllers/alunos/router.ts
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/routes.ts
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/index.ts
+== APP - tapr-2023-1-aluno-javascript ==     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1048:15)
+== APP - tapr-2023-1-aluno-javascript ==     at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+== APP - tapr-2023-1-aluno-javascript ==     at Function.Module._load (node:internal/modules/cjs/loader:901:27)
+== APP - tapr-2023-1-aluno-javascript ==     at Module.require (node:internal/modules/cjs/loader:1115:19)
+== APP - tapr-2023-1-aluno-javascript ==     at require (node:internal/modules/helpers:130:18)
+== APP - tapr-2023-1-aluno-javascript ==     at Object.<anonymous> (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/services/alunos.service.ts:4:1)
+== APP - tapr-2023-1-aluno-javascript ==     at Module._compile (node:internal/modules/cjs/loader:1241:14)
+== APP - tapr-2023-1-aluno-javascript ==     at Module.m._compile (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1618:23)
+== APP - tapr-2023-1-aluno-javascript ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-1-aluno-javascript ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1621:12) {
+== APP - tapr-2023-1-aluno-javascript ==   code: 'MODULE_NOT_FOUND',
+== APP - tapr-2023-1-aluno-javascript ==   requireStack: [
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/services/alunos.service.ts',
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/controllers/alunos/alunoscontroller.ts',
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/controllers/alunos/router.ts',
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/routes.ts',
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/index.ts'
+== APP - tapr-2023-1-aluno-javascript ==   ]
+== APP - tapr-2023-1-aluno-javascript == }
+== APP - tapr-2023-1-aluno-javascript == [nodemon] app crashed - waiting for file changes before starting...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-1-aluno-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-1-aluno-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-1-aluno-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-1-aluno-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-1-aluno-javascript == Error: Cannot find module 'server/common/daprclient'
+== APP - tapr-2023-1-aluno-javascript == Require stack:
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/services/alunos.service.ts
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/controllers/alunos/alunoscontroller.ts
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/controllers/alunos/router.ts
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/routes.ts
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/index.ts
+== APP - tapr-2023-1-aluno-javascript ==     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1048:15)
+== APP - tapr-2023-1-aluno-javascript ==     at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+== APP - tapr-2023-1-aluno-javascript ==     at Function.Module._load (node:internal/modules/cjs/loader:901:27)
+== APP - tapr-2023-1-aluno-javascript ==     at Module.require (node:internal/modules/cjs/loader:1115:19)
+== APP - tapr-2023-1-aluno-javascript ==     at require (node:internal/modules/helpers:130:18)
+== APP - tapr-2023-1-aluno-javascript ==     at Object.<anonymous> (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/services/alunos.service.ts:4:1)
+== APP - tapr-2023-1-aluno-javascript ==     at Module._compile (node:internal/modules/cjs/loader:1241:14)
+== APP - tapr-2023-1-aluno-javascript ==     at Module.m._compile (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1618:23)
+== APP - tapr-2023-1-aluno-javascript ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-1-aluno-javascript ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1621:12) {
+== APP - tapr-2023-1-aluno-javascript ==   code: 'MODULE_NOT_FOUND',
+== APP - tapr-2023-1-aluno-javascript ==   requireStack: [
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/services/alunos.service.ts',
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/controllers/alunos/alunoscontroller.ts',
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/controllers/alunos/router.ts',
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/routes.ts',
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/index.ts'
+== APP - tapr-2023-1-aluno-javascript ==   ]
+== APP - tapr-2023-1-aluno-javascript == }
+== APP - tapr-2023-1-aluno-javascript == [nodemon] app crashed - waiting for file changes before starting...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-1-aluno-javascript == /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:859
+== APP - tapr-2023-1-aluno-javascript ==     return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+== APP - tapr-2023-1-aluno-javascript ==            ^
+== APP - tapr-2023-1-aluno-javascript == TSError: ⨯ Unable to compile TypeScript:
+== APP - tapr-2023-1-aluno-javascript == server/api/services/alunos.service.ts(69,37): error TS2304: Cannot find name 'alunos'.
+== APP - tapr-2023-1-aluno-javascript == 
+== APP - tapr-2023-1-aluno-javascript ==     at createTSError (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:859:12)
+== APP - tapr-2023-1-aluno-javascript ==     at reportTSError (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:863:19)
+== APP - tapr-2023-1-aluno-javascript ==     at getOutput (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1077:36)
+== APP - tapr-2023-1-aluno-javascript ==     at Object.compile (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1433:41)
+== APP - tapr-2023-1-aluno-javascript ==     at Module.m._compile (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1617:30)
+== APP - tapr-2023-1-aluno-javascript ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-1-aluno-javascript ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1621:12)
+== APP - tapr-2023-1-aluno-javascript ==     at Module.load (node:internal/modules/cjs/loader:1091:32)
+== APP - tapr-2023-1-aluno-javascript ==     at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+== APP - tapr-2023-1-aluno-javascript ==     at Module.require (node:internal/modules/cjs/loader:1115:19) {
+== APP - tapr-2023-1-aluno-javascript ==   diagnosticCodes: [ 2304 ]
+== APP - tapr-2023-1-aluno-javascript == }
+== APP - tapr-2023-1-aluno-javascript == [nodemon] app crashed - waiting for file changes before starting...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-1-aluno-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-1-aluno-javascript == Error: Cannot find module 'server/common/daprclient'
+== APP - tapr-2023-1-aluno-javascript == Require stack:
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/services/alunos.service.ts
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/controllers/alunos/alunoscontroller.ts
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/controllers/alunos/router.ts
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/routes.ts
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/index.ts
+== APP - tapr-2023-1-aluno-javascript ==     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1048:15)
+== APP - tapr-2023-1-aluno-javascript ==     at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+== APP - tapr-2023-1-aluno-javascript ==     at Function.Module._load (node:internal/modules/cjs/loader:901:27)
+== APP - tapr-2023-1-aluno-javascript ==     at Module.require (node:internal/modules/cjs/loader:1115:19)
+== APP - tapr-2023-1-aluno-javascript ==     at require (node:internal/modules/helpers:130:18)
+== APP - tapr-2023-1-aluno-javascript ==     at Object.<anonymous> (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/services/alunos.service.ts:4:1)
+== APP - tapr-2023-1-aluno-javascript ==     at Module._compile (node:internal/modules/cjs/loader:1241:14)
+== APP - tapr-2023-1-aluno-javascript ==     at Module.m._compile (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1618:23)
+== APP - tapr-2023-1-aluno-javascript ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-1-aluno-javascript ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1621:12) {
+== APP - tapr-2023-1-aluno-javascript ==   code: 'MODULE_NOT_FOUND',
+== APP - tapr-2023-1-aluno-javascript ==   requireStack: [
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/services/alunos.service.ts',
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/controllers/alunos/alunoscontroller.ts',
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/controllers/alunos/router.ts',
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/routes.ts',
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/index.ts'
+== APP - tapr-2023-1-aluno-javascript ==   ]
+== APP - tapr-2023-1-aluno-javascript == }
+== APP - tapr-2023-1-aluno-javascript == [nodemon] app crashed - waiting for file changes before starting...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-1-aluno-javascript == Error: Cannot find module 'server/common/daprclient'
+== APP - tapr-2023-1-aluno-javascript == Require stack:
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/services/alunos.service.ts
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/controllers/alunos/alunoscontroller.ts
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/controllers/alunos/router.ts
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/routes.ts
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/index.ts
+== APP - tapr-2023-1-aluno-javascript ==     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1048:15)
+== APP - tapr-2023-1-aluno-javascript ==     at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+== APP - tapr-2023-1-aluno-javascript ==     at Function.Module._load (node:internal/modules/cjs/loader:901:27)
+== APP - tapr-2023-1-aluno-javascript ==     at Module.require (node:internal/modules/cjs/loader:1115:19)
+== APP - tapr-2023-1-aluno-javascript ==     at require (node:internal/modules/helpers:130:18)
+== APP - tapr-2023-1-aluno-javascript ==     at Object.<anonymous> (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/services/alunos.service.ts:4:1)
+== APP - tapr-2023-1-aluno-javascript ==     at Module._compile (node:internal/modules/cjs/loader:1241:14)
+== APP - tapr-2023-1-aluno-javascript ==     at Module.m._compile (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1618:23)
+== APP - tapr-2023-1-aluno-javascript ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-1-aluno-javascript ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1621:12) {
+== APP - tapr-2023-1-aluno-javascript ==   code: 'MODULE_NOT_FOUND',
+== APP - tapr-2023-1-aluno-javascript ==   requireStack: [
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/services/alunos.service.ts',
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/controllers/alunos/alunoscontroller.ts',
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/controllers/alunos/router.ts',
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/routes.ts',
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/index.ts'
+== APP - tapr-2023-1-aluno-javascript ==   ]
+== APP - tapr-2023-1-aluno-javascript == }
+== APP - tapr-2023-1-aluno-javascript == [nodemon] app crashed - waiting for file changes before starting...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-1-aluno-javascript == Error: Cannot find module 'server/common/daprclient'
+== APP - tapr-2023-1-aluno-javascript == Require stack:
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/services/alunos.service.ts
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/controllers/alunos/alunoscontroller.ts
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/controllers/alunos/router.ts
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/routes.ts
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/index.ts
+== APP - tapr-2023-1-aluno-javascript ==     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1048:15)
+== APP - tapr-2023-1-aluno-javascript ==     at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+== APP - tapr-2023-1-aluno-javascript ==     at Function.Module._load (node:internal/modules/cjs/loader:901:27)
+== APP - tapr-2023-1-aluno-javascript ==     at Module.require (node:internal/modules/cjs/loader:1115:19)
+== APP - tapr-2023-1-aluno-javascript ==     at require (node:internal/modules/helpers:130:18)
+== APP - tapr-2023-1-aluno-javascript ==     at Object.<anonymous> (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/services/alunos.service.ts:4:1)
+== APP - tapr-2023-1-aluno-javascript ==     at Module._compile (node:internal/modules/cjs/loader:1241:14)
+== APP - tapr-2023-1-aluno-javascript ==     at Module.m._compile (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1618:23)
+== APP - tapr-2023-1-aluno-javascript ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-1-aluno-javascript ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1621:12) {
+== APP - tapr-2023-1-aluno-javascript ==   code: 'MODULE_NOT_FOUND',
+== APP - tapr-2023-1-aluno-javascript ==   requireStack: [
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/services/alunos.service.ts',
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/controllers/alunos/alunoscontroller.ts',
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/controllers/alunos/router.ts',
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/routes.ts',
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/index.ts'
+== APP - tapr-2023-1-aluno-javascript ==   ]
+== APP - tapr-2023-1-aluno-javascript == }
+== APP - tapr-2023-1-aluno-javascript == [nodemon] app crashed - waiting for file changes before starting...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-1-aluno-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-1-aluno-javascript == Error: Cannot find module 'server/common/daprclient'
+== APP - tapr-2023-1-aluno-javascript == Require stack:
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/services/alunos.service.ts
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/controllers/alunos/alunoscontroller.ts
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/controllers/alunos/router.ts
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/routes.ts
+== APP - tapr-2023-1-aluno-javascript == - /workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/index.ts
+== APP - tapr-2023-1-aluno-javascript ==     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1048:15)
+== APP - tapr-2023-1-aluno-javascript ==     at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+== APP - tapr-2023-1-aluno-javascript ==     at Function.Module._load (node:internal/modules/cjs/loader:901:27)
+== APP - tapr-2023-1-aluno-javascript ==     at Module.require (node:internal/modules/cjs/loader:1115:19)
+== APP - tapr-2023-1-aluno-javascript ==     at require (node:internal/modules/helpers:130:18)
+== APP - tapr-2023-1-aluno-javascript ==     at Object.<anonymous> (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/services/alunos.service.ts:4:1)
+== APP - tapr-2023-1-aluno-javascript ==     at Module._compile (node:internal/modules/cjs/loader:1241:14)
+== APP - tapr-2023-1-aluno-javascript ==     at Module.m._compile (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1618:23)
+== APP - tapr-2023-1-aluno-javascript ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-1-aluno-javascript ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/node_modules/ts-node/src/index.ts:1621:12) {
+== APP - tapr-2023-1-aluno-javascript ==   code: 'MODULE_NOT_FOUND',
+== APP - tapr-2023-1-aluno-javascript ==   requireStack: [
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/services/alunos.service.ts',
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/controllers/alunos/alunoscontroller.ts',
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/api/controllers/alunos/router.ts',
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/routes.ts',
+== APP - tapr-2023-1-aluno-javascript ==     '/workspaces/tapr-2023-equipe1-matricula-nodejs/microservmatricula/server/index.ts'
+== APP - tapr-2023-1-aluno-javascript ==   ]
+== APP - tapr-2023-1-aluno-javascript == }
+== APP - tapr-2023-1-aluno-javascript == [nodemon] app crashed - waiting for file changes before starting...
+
+termination signal received: shutting down

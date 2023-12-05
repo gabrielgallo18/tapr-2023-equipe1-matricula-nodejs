@@ -5,7 +5,7 @@ metadata:
 spec:
   topic: topico-equipe-1-matricula
   routes:
-    default: /api/v1/aluno/event
+    default: /api/v1/matricula/event
   pubsubname: servicebus-pubsub
 scopes:
 - tapr-2023-1-aluno-javascript

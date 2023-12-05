@@ -11,37 +11,11 @@ tags:
   - name: Specification
     description: The swagger API specification
 paths:
-  /matricula:
-    get:
-      summary: Retrieve all matriculas
-      responses:
-        '200':
-          description: Successful operation
-          content: {}
+  /matricula/event:
     post:
-      summary: Create a new matricula
       responses:
-        '200':
-          description: Successful operation
-          content: {}
-  /matricula/{id}:
-    get:
-      summary: Retrieve a matricula by ID
-      responses:
-        '200':
-          description: Successful operation
-          content: {}
-    put:
-      summary: Update a matricula by ID
-      responses:
-        '200':
-          description: Successful operation
-          content: {}
-    delete:
-      summary: Delete a matricula by ID
-      responses:
-        '200':
-          description: Successful operation
+        200:
+          description: Return all
           content: {}
   /alunos:
     get:
